@@ -1,17 +1,15 @@
 module main
 
-import vsl.math
+import math
 import vsl.deriv
-import vsl
+import vsl.func
 
 fn pow_function(x f64, _ []f64) f64 {
 	return math.pow(x, 1.5)
 }
 
 fn main() {
-	f := vsl.Function{
-		function: pow_function
-	}
+	f := func.new_func(f: pow_function)
 	println('f(x) = x^(3/2)')
 	mut expected := 1.5 * math.sqrt(2.0)
 	mut result, mut abserr := deriv.central(f, 2.0, 1e-8)
