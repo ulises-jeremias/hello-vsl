@@ -3,7 +3,7 @@
 {
 	"name": "VSL Environment",
 
-	"image": "ulisesjeremias/vsl",
+	"image": "ulisesjeremias/vsl:dev",
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
