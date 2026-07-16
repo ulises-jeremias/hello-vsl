@@ -19,3 +19,11 @@ Done. And your system will remain "clean".
 Our [Docker Image](https://hub.docker.com/repository/docker/vsl/vsl) also contains V and the V Tools for working with VS Code (or not). Below is a video showing the convenience of VS Code + the V tools + VSL.
 
 ![Run tests inside docker](static/hello-vsl.gif)
+
+## 👥 Contributors
+
+<a href="https://github.com/ulises-jeremias/hello-vsl/contributors">
+  <img src="https://contrib.rocks/image?repo=ulises-jeremias/hello-vsl"/>
+</a>
+
+Made with [contributors-img](https://contrib.rocks).
